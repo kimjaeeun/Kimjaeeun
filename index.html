@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>나의 웹 페이지</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Hello, I'm a developer!</h1>
+        <p>환영합니다! 나의 웹 페이지에 오신 것을 환영합니다.</p>
+        <a href="#home" class="button">홈</a>
     </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>Hello, I'm a web developer!</p>
-        </section>
-    </main>
+
+    <section id="home" class="blue-background">
+        <h2>자기 소개</h2>
+        <p>안녕하세요! 나는 [이름]입니다. 나의 관심사와 역량에 대한 간단한 소개를 추가하세요.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>포트폴리오</h2>
+        <div class="project">
+            <h3>프로젝트 1: 프로젝트 이름</h3>
+            <img class="project-thumbnail" src="project1-thumbnail.jpg" alt="프로젝트 1 썸네일">
+            <!-- 모달 열기 버튼 -->
+            <button class="modal-button">자세히 보기</button>
+            <!-- 모달 내용 -->
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3>프로젝트 1: 프로젝트 이름</h3>
+                    <p>프로젝트 설명: 이 부분에 프로젝트에 대한 자세한 설명을 추가하세요.</p>
+                    <p>기술 스택: 사용한 기술과 도구를 나열하세요.</p>
+                    <a href="#">프로젝트 링크</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 다른 프로젝트도 유사한 방식으로 추가하세요 -->
+    </section>
+
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>Email: 나의 이메일 주소</p>
+        <p>GitHub: <a href="GitHub 프로필 링크">GitHub 프로필 링크</a></p>
+    </section>
+
     <footer>
-        <p>&copy; 2023 My Simple Website</p>
+        <p>&copy; 2023 나의 웹 페이지</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
