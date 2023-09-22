@@ -9,38 +9,29 @@
 <body>
     <header>
         <h1>Hello, I'm a developer!</h1>
-        <a href="#home" class="button">홈</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">프로젝트</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="home" class="blue-background">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>안녕하세요! 나는 [이름]입니다. 나의 관심사와 역량에 대한 간단한 소개를 추가하세요.</p>
+        <p>나의 경력사항, 학력, 활동사항 등을 자세히 소개하세요.</p>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="section">
         <h2>프로젝트</h2>
         <div class="project">
-            <h3>프로젝트 1: 프로젝트 이름</h3>
-            <img class="project-thumbnail" src="project1-thumbnail.jpg" alt="프로젝트 1 썸네일">
-            <!-- 모달 열기 버튼 -->
-            <button class="modal-button">자세히 보기</button>
-            <!-- 모달 내용 -->
-            <div class="modal">
-                <div class="modal-content">
-                    <span class="close-button">&times;</span>
-                    <h3>프로젝트 1: 프로젝트 이름</h3>
-                    <p>프로젝트 설명: 이 부분에 프로젝트에 대한 자세한 설명을 추가하세요.</p>
-                    <p>기술 스택: 사용한 기술과 도구를 나열하세요.</p>
-                    <a href="#">프로젝트 링크</a>
-                </div>
-            </div>
+            <!-- 프로젝트 정보를 추가하세요 -->
         </div>
-
-        <!-- 다른 프로젝트도 유사한 방식으로 추가하세요 -->
     </section>
 
-    <section id="contact">
-        <h2>연락처</h2>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
         <p>Email: 나의 이메일 주소</p>
         <p>GitHub: <a href="GitHub 프로필 링크">GitHub 프로필 링크</a></p>
     </section>
