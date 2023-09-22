@@ -32,6 +32,12 @@ body {
     text-decoration: underline;
 }
 
+/* 선택된 버튼 스타일 */
+.side-nav ul li a.selected {
+    font-weight: bold;
+    background-color: #007BFF;
+}
+
 main {
     flex-grow: 1;
 }
@@ -43,6 +49,7 @@ main {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
 }
 
 /* 링크 스타일 */
